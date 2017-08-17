@@ -50,11 +50,11 @@ router.beforeEach((to, from, next) => {
 //});
 
 new Vue({
-  //el: '#app',
+  el: '#app',
   //template: '<App/>',
   router,
   store,
-  //components: { App }
+  components: { App },
   render: h => h(App)
-}).$mount('#app')
+})
 
