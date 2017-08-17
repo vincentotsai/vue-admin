@@ -23,7 +23,6 @@ let routes = [
         name: '',
         hidden: true
     },
-    //{ path: '/main', component: Main },
     {
         path: '/',
         component: Home,
@@ -72,4 +71,4 @@ let routes = [
     }
 ];
 
-export default routes;
+export default routes
