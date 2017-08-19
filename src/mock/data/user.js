@@ -4,7 +4,7 @@ const LoginUsers = [
     id: 1,
     username: 'admin',
     password: '123456',
-    avatar: '',
+    avatar: './../../assets/user.png',
     name: 'admin'
   }
 ];
@@ -22,4 +22,4 @@ for (let i = 0; i < 86; i++) {
   }));
 }
 
-export { LoginUsers, Users };
+export { LoginUsers, Users }
